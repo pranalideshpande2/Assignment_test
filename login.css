@@ -1,0 +1,233 @@
+
+ .main_container{
+  margin-bottom:50px;
+ }
+ /* Remove the navbar's default margin-bottom and rounded borders */
+ .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      margin-top:50px;
+
+    }
+.navbar-inverse
+    {
+    	background-color:#efefef;
+    	border:none;
+    }
+.logo{
+		max-width: 100%;
+		height: auto !important;
+	}
+.container{
+    margin-top:50px;
+    color:#989898;
+    
+}
+.glyphicon-arrow-left
+{
+  padding:10px;
+  font-size: 25px;
+
+}
+.fa-rupee
+{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 15px;
+  margin-right: 10px;
+  right: 5px;
+}
+
+/* border for div */
+.col .div1
+{
+  border: solid #ededed 2px;
+  padding:5px;
+  border-left: solid #13a287 3px;
+ }
+.col .div2
+{ 
+  border: solid #ededed 2px;
+  padding:5px;
+ }
+ .col .div3
+{ 
+  border: solid #ededed 2px;
+  padding:5px;
+ }
+
+.div1_1{
+  
+  height:73px;
+  background-color:rgb(20, 162, 136);
+}
+.txt{
+  font-color:rgb(233, 247, 243);
+  padding-top:13px;
+  font-size: 25px;
+  color: white;
+}
+.div2_1{
+ 
+  height:73px;
+  background-color:rgb(19, 188, 157);
+}
+.div3_1{
+ 
+  height:73px;
+  background-color:rgb(66, 92, 119);
+}
+
+/* text styling*/
+.large_cap_txt{
+  float:left;
+  padding-left:100px;
+}
+.small_cap_txt{
+  float:left;
+  padding-left:80px;
+}
+.largr_term_txt{
+  float:left;
+  padding-left:30px;
+}
+
+
+/* Removing list styling and adding space between text and bullet */
+.div1 ul {
+  list-style: none;
+  padding: 0px;
+  margin: 4;
+}
+
+.div2 ul {
+  list-style: none;
+  padding: 0px;
+  margin: 4px;
+}
+.div3 ul {
+  list-style: none;
+  padding: 0px;
+  margin: 4px;
+}
+
+.div li {
+  padding-left: 1em; 
+  text-indent: -.7em;
+}
+
+/* changing bullet color and adding style */
+ 
+.div1 ul li::before
+{
+  content: "\2022";
+  color: rgb(20, 162, 136);
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  
+}
+
+.div2 ul li::before
+{
+  content: "\2022";
+  color: rgb(19, 188, 157);
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  
+}
+
+.div3 ul li::before
+{
+  content: "\2022";
+  color: rgb(66, 92, 119);
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  
+}
+button{
+  background-color:#13a287;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 8px;
+  
+}
+.closeButton
+{
+    font-size: 57px;
+    color: rgb(193, 193, 193);
+    margin-right: 20px;
+}
+/**/
+.price_rupee{
+  float: left;
+  padding-top: 25px;
+  width: 35px;
+  font-size: 24px;
+}
+.price_amont{
+  float:left; 
+}
+.target_cal{
+  float: left;
+  padding-top: 20px;
+  width: 35px;
+  font-size: 24px;
+}
+.target_date{
+  float:left;
+}
+.Invest_rupee{
+  float: left;
+  padding-top: 25px;
+  width: 35px;
+  font-size: 24px;
+}
+.Invest_amount{
+  float:left;
+}
+@media only screen and (max-width: 992px){
+.largr_term_txt{
+  padding-left: 64px;
+}
+.small_cap_txt{
+    padding-left: 64px;
+}
+.large_cap_txt{
+  padding-left: 64px;
+}
+.div1_1{
+  height: 113px;
+}
+.div2_1{
+  height: 94px;
+}
+.div3_1{
+  height: 94px;
+}
+.txt{
+  padding-top: 34px;
+}
+}
+@media only screen and (max-width: 768px){
+  .div1_1{
+  height: 74px;
+}
+  .div2_1{
+  height: 74px;
+}
+  .div3_1{
+  height: 74px;
+}
+.txt{
+  padding-top: 20px;
+}
+  }
